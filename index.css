@@ -1,0 +1,165 @@
+CSS Reset*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Oswald', sans-serif;
+}
+
+main {
+	z-index: 1;
+}
+
+/*Navbar CSS Start*/
+#navbar {
+	position: sticky;
+	top: 0px;
+	z-index: 10;
+	background-color: #5bc0eb;
+	border: 1px solid green;
+}
+
+#navbar-brand {
+	font-weight: bold;
+}
+
+/*Navbar CSS End*/
+
+/*Landing Page CSS Start*/
+#landing-container {
+    position: relative;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+#backdrop {
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 15px;
+    z-index: 2;
+   border: 1px solid red;
+}
+
+#overlay-container {
+	width: 100%;
+	position: absolute;
+    z-index: 5;
+    margin-top: 20vh;
+    left: 15px;
+    border: 1px solid green;
+}
+
+#landing-left {
+	background-color: #5bc0eb;
+}
+
+#landing-right {
+	background-color: #fde74c;
+}
+
+#profile-photo {
+	width: 50%;
+	border-radius: 25px;
+	margin-left: 8%;
+	box-shadow: 10px 10px #9bc53d;
+}
+
+#overlay-container-right {
+	
+}
+
+#overlay-container-left {
+	
+}
+
+#overlay-container-left-text1 {
+	color: #fde74c;
+	font-size: 4rem;
+	font-weight: bold;
+	letter-spacing: -2px;
+}
+/*Landing Page CSS End
+
+/*About Me CSS Start*/
+#aboutme {
+	border: 1px solid red;
+	width: 100%;
+    height: 100%;
+}
+#aboutme-head {
+	font-size: 4rem;
+}
+#aboutme-text {
+	color: #5bc0eb;
+	border: 1px solid green;
+}
+
+/*About Me CSS End*/
+
+/*My Projects CSS Start*/
+#my-projects {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    border: 1px solid black;
+}
+
+#my-projects-content {
+	position: absolute;
+    height: 100vh;
+    border: 1px solid green;
+    background-color: #5bc0eb;
+}
+#my-projects-head {
+	font-size: 4rem;
+	color: #fde74c;
+	border: 1px solid black;
+}
+#projects-cards {
+	padding: 0;
+	margin: 0;
+	border: 1px solid green;
+}
+
+#card-holder1,  #card-holder2, #card-holder3{
+	background-color: #9bc53d;
+	padding: 0;
+	margin: 0;
+	border: 1px solid red;
+}
+
+.card-body {
+	color: #fde74c;
+}
+
+.card-img-top {
+
+}
+/*My Projects CSS End*/
+
+/*Contact Me CSS Start*/
+#contact-me {
+	border: 1px solid green;
+	width: 100%;
+    height: 100%;
+}
+
+#contact-me-head {
+	font-size: 3rem;
+	color: #5bc0eb;
+}
+
+#contact-form {
+	background-color: #5bc0eb;
+	color: #fde74c;
+}
+
+#contact-map {
+	border: 1px solid green;
+}
+/*Contact Me CSS End*/
