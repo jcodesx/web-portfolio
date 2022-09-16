@@ -367,6 +367,7 @@ ul.navbar-nav a:hover {
   margin: -100px;
   overflow: hidden;
   opacity: 0.5;
+  border-radius: 25px;
 }
 
 .main-gallery li:hover {
