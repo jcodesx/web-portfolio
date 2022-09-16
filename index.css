@@ -107,6 +107,16 @@ h2:hover {
 	margin-left: 8%;
 	box-shadow: 10px 10px #a8d5e2;
 }
+
+#overlay-container-left2 {
+	height: 100%;
+	width: 90%;
+	position: absolute;
+	margin-top: 100%;
+	color: #5465ff;
+	font-family: 'Titan One', cursive;	
+	letter-spacing: 0px;
+}
 /*Landing Page CSS End
 
 /*About Me CSS Start*/
@@ -231,6 +241,12 @@ h2:hover {
 /*Footer CSS End*/
 
 /*Animation CSS Start*/
+@media screen and (min-width: 800px) {
+  .rotatingText-adjective {
+    font-size: 4rem !important;
+  }
+}
+
 .rotatingText {
 	color: #5465ff;
 	position: relative;

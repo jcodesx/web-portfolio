@@ -45,16 +45,23 @@
 		<div class="row" id="landing-container">
 			<div class="row d-flex justify-content-center align-items-center" id="overlay-container">
 
-				<div class="rotatingText col-lg-6 col-md-6 col-sm-6 order-lg-1 order-md-1 order-sm-2 order-2 order-xs-2 p-0" id="overlay-container-left">
+				<div class="d-none d-lg-block d-md-block d-sm-block rotatingText col-lg-6 col-md-6 col-sm-6 order-lg-1 order-md-1 order-sm-2 order-2 order-xs-2 p-0" id="overlay-container-left">
 					<!-- <h1 id="overlay-container-left-text1" class="">Frontend Developer, Teacher, Civil Servant.</h1> -->
-					  <h1 class="rotatingText-adjective d-flex justify-content-center align-items-center">Web Developer</h1>
-					  <h1 class="rotatingText-adjective d-flex justify-content-center align-items-center">Teacher</h1>
-					  <h1 class="rotatingText-adjective d-flex justify-content-center align-items-center">Civil Servant</h1>
-					
+					<h1 class="rotatingText-adjective d-flex justify-content-center align-items-center">Web Developer</h1>
+					<h1 class="rotatingText-adjective d-flex justify-content-center align-items-center">Teacher</h1>
+					<h1 class="rotatingText-adjective d-flex justify-content-center align-items-center">Civil Servant</h1>
 				</div>
 
-				<div class="col-lg-6 col-md-6 col-sm-6 order-lg-2 order-md-2 order-sm-1 order-1 d-lg-flex justify-content-start align-self-center" id="overlay-container-right">
+				<div class="d-none d-lg-block d-md-block d-sm-block col-lg-6 col-md-6 col-sm-6 order-lg-2 order-md-2 order-sm-1 order-1 d-lg-flex justify-content-start align-self-center" id="overlay-container-right">
 					<img src="./images/me.jpg" alt="Profile Photo" id="profile-photo" class="">
+				</div>
+
+				<div class="d-sm-none order-2 order-xs-2 p-0" id="overlay-container-left2">
+					<div class="d-lg-flex justify-content-start align-self-center" id="overlay-container-right">
+						<img src="./images/me.jpg" alt="Profile Photo" id="profile-photo" class="">
+					</div>
+					
+					<h1 id="overlay-container-left-text1" class="py-3">Frontend Developer, Teacher, Civil Servant.</h1>
 				</div>
 
 			</div>
@@ -69,6 +76,7 @@
 				</div>
 			</div>
 		</div>
+
 		
 		<!-- About Me Start -->
 		<section id="aboutme">
